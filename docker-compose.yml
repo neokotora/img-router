@@ -1,7 +1,6 @@
 services:
   img-router:
-    build: .
-    image: img-router:latest
+    image: ghcr.io/lianwusuoai/img-router:latest
     container_name: img-router-proxy
     ports:
       - "10001:10001"
